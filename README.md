@@ -18,8 +18,7 @@ Right now it only consists of REST API built using SLIM 3 framework using which 
 
 Below is the list of API endpoints of our app:
 
-
-#### GET 
+<br>
 
 
 | Method | URL  | Description |
@@ -27,14 +26,8 @@ Below is the list of API endpoints of our app:
 | GET | /cabs  | Fetch the entire list of cabs irrespective of distance.  |
 | GET | /cabs/nearby/{location_value}  | Fetch nearby cabs only, {location_value} parameter must be sent in integer format (see location assumptions below).|
 | GET |/cabs/{number}| Fetches particular cab details, {number} property has to be sent which is cabs number in integer.
-
-#### POST 
-
-
-| URL  | Description |
-| ------------- | ------------- |
-| /cabs/book  |Books a ride in particular cab, send {cab_number} as a post parameter in integer format which is a cab's number.|
-| /calculate/fare |  Calculate the fare for the particular ride, See Fare calculations below| 
+| POST | /cabs/book  |Books a ride in particular cab, send {cab_number} as a post parameter in integer format which is a cab's number.|
+| POST | /calculate/fare |  Calculate the fare for the particular ride, See Fare calculations below| 
  
 
 ### Fare Calculation
