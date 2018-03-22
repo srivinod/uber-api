@@ -15,7 +15,7 @@ Right now it only consists of REST API built using SLIM 3 framework using which 
 
 
 ## REST API ENDPOINTS
-
+<br>
 Below is the list of API endpoints of our app:
 
 <br>
@@ -29,7 +29,7 @@ Below is the list of API endpoints of our app:
 | POST | /cabs/book  |Books a ride in particular cab, send {cab_number} as a post parameter in integer format which is a cab's number.|
 | POST | /calculate/fare |  Calculate the fare for the particular ride, See Fare calculations below| 
  
-
+<br>
 ### Fare Calculation
 
 Fare is calculated as 1 COINS per minute and 2 COINS per kilometer, sum gives the total fare for the ride.
