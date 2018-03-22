@@ -1,15 +1,15 @@
 # GETTING STARTED
 
-Clone this app and launch them in LAMP or WAMP servers this will launch your app
+Clone this app and launch them in servers of your choice this will launch your app
 
-For example in WAMP, run below command to launch the server
+Navigate into the project root and run below command to launch the project
 
 php -S localhost:8000
 
 
-# UBER LIKE APP
+## UBER CLONE APP
  
-This app works similar to cab service apps like UBER, LYFT with minimal functions and features. 
+This app works similar to cab service apps like UBER, LYFT etc., with minimal functions and features. 
 
 Right now it only consists of REST API built using SLIM 3 framework using which you can extend your own front end.
 
