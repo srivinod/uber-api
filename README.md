@@ -22,11 +22,11 @@ Below is the list of API endpoints of our app:
 #### GET 
 
 
-| URL  | Description |
-| ------------- | ------------- |
-| /cabs  | Fetch the entire list of cabs irrespective of distance.  |
-| /cabs/nearby/{location_value}  | Fetch nearby cabs only, {location_value} parameter must be sent in integer format (see location assumptions below).|
-|/cabs/{number}| Fetches particular cab details, {number} property has to be sent which is cabs number in integer.
+| Method | URL  | Description |
+| ------------- | ------------- | ------------- |
+| GET | /cabs  | Fetch the entire list of cabs irrespective of distance.  |
+| GET | /cabs/nearby/{location_value}  | Fetch nearby cabs only, {location_value} parameter must be sent in integer format (see location assumptions below).|
+| GET |/cabs/{number}| Fetches particular cab details, {number} property has to be sent which is cabs number in integer.
 
 #### POST 
 
