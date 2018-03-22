@@ -14,7 +14,7 @@ This app works similar to cab service apps like UBER, LYFT etc., with minimal fu
 Right now it only consists of REST API built using SLIM 3 framework using which you can extend your own front end.
 
 
-### REST API ENDPOINTS
+## REST API ENDPOINTS
 
 Below is the list of API endpoints of our app:
 
