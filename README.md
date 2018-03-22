@@ -31,11 +31,11 @@ Below is the list of API endpoints of our app:
  
 <br>
 
-### Fare Calculation
+## FARE CALCULATIONS
 
 Fare is calculated as 1 COINS per minute and 2 COINS per kilometer, sum gives the total fare for the ride.
 
-### Location Assumptions
+## LOCATION ASSUMPTIONS
 
 We have assumed location to be flat instead of LATITUDE and LONGITUDE just provide single numeric values and locate based on numbers
  
