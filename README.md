@@ -22,7 +22,7 @@ Below is the list of API endpoints of our app:
 #### GET 
 
 
-| First Header  | Second Header |
+| URL  | Description |
 | ------------- | ------------- |
 | /cabs  | Fetch the entire list of cabs irrespective of distance.  |
 | /cabs/nearby/{location_value}  | Fetch nearby cabs only, {location_value} parameter must be sent in integer format (see location assumptions below).|
@@ -31,15 +31,15 @@ Below is the list of API endpoints of our app:
 #### POST 
 
 
-| First Header  | Second Header |
+| URL  | Description |
 | ------------- | ------------- |
-| /cabs/book  |Books a ride in particular cab, send {cab_number} as a post paramter in integer format which is a cabs number.|
-| /calculate/fare |  Calculate tha fare for the particular ride, See Fare calculations below| 
+| /cabs/book  |Books a ride in particular cab, send {cab_number} as a post parameter in integer format which is a cab's number.|
+| /calculate/fare |  Calculate the fare for the particular ride, See Fare calculations below| 
  
 
 ### Fare Calculation
 
-Fare is calculated as one COINS per minute and two COINS per kilometer, sum gives the total fare for the ride.
+Fare is calculated as 1 COINS per minute and 2 COINS per kilometer, sum gives the total fare for the ride.
 
 ### Location Assumptions
 
